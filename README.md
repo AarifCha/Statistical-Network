@@ -26,7 +26,7 @@ certain areas.
 
 $$\int_a^b dx f(x) \approx \frac{(b-a)}{N}\sum_{i=1, x_i\sim PDF}^N \frac{f(x_i)}{PDF(x_i)}$$
 
-Choosing a PDf that decreases the variance of the integral will produce
+Choosing a PDF that decreases the variance of the integral will produce
 better results since the error of the estimation is proportional to the
 square root of the variance. This gives us a loss function for a MLP to
 be trained on. But before that, we also review a little bit of inverse
